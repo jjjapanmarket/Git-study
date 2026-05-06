@@ -6,3 +6,14 @@
 - git add . で一括登録
 - git commit -m "..." 
 - git push origin main でGitHubに公開。
+
+## 管理しないファイルをGitの管理から外す「.gitignore」
+- .gitignoreファイルに指定することで、ファイルをGitの管理から外すことができる。（自動生成されるファイル、パスワードが記載されているファイル）
+- ファイルの削除（git rm）
+- 取り消し（git reset）(HEAD = 「今のブランチの最新コミット」)
+- git checkout -- は、作業ディレクトリの変更を捨てて、ファイルを元の状態に戻すコマンド
+
+
+
+
+
