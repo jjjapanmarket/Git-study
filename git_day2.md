@@ -58,6 +58,11 @@
 - git checkout --<ファイル名>
 - git checkout --<ディレクト名>
 
-# ステージした変更を取り消す
+## ステージした変更を取り消す
 - git reset HEAD <ファイル名>
 - git reset HEAD <ディレクト名>
+
+##　直前のコミットをやり直す
+- git commit --amend(リモートリポジトリにpushしたコミットはやり直したらダメ。)
+
+
