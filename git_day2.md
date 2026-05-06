@@ -53,3 +53,11 @@
 | `git commit -m` | `git cm` | 保存（セーブ）する時 |
 | `git diff` | `git df` | 「何を書いたっけ？」と確認する時 |
 | `git log --graph...` | `git graph` | 過去の履歴をグラフで見る時 |
+
+## ファイルへの変更を取り消す
+- git checkout --<ファイル名>
+- git checkout --<ディレクト名>
+
+# ステージした変更を取り消す
+- git reset HEAD <ファイル名>
+- git reset HEAD <ディレクト名>
