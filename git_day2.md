@@ -13,6 +13,9 @@
 - 取り消し（git reset）(HEAD = 「今のブランチの最新コミット」)
 - git checkout -- は、作業ディレクトリの変更を捨てて、ファイルを元の状態に戻すコマンド
 
+##　変更差分を確認する
+- git addする前の変更分「git diff」
+- git addした後の変更分「git diff --staged」
 
 
 
