@@ -23,5 +23,8 @@
 
 ### マージには３種類ある
 1. Fast Foward : 早送りになるマージ
+- Github上で編集をし、commit→　git pull origin main→ cat<Githubでciしたファイル>→ git log --onelineで確認　
+
 2. Auto Merge : 基本的なマージ
+
 3. 
