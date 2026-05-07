@@ -25,6 +25,12 @@
 1. Fast Foward : 早送りになるマージ
 - Github上で編集をし、commit→　git pull origin main→ cat<Githubでciしたファイル>→ git log --onelineで確認　
 
-2. Auto Merge : 基本的なマージ
+2. Auto Merge : 枝分かれを合体させるマージ
+- main と feature の両方で作業が進んでいたり、マージした事実を記録に残したい時の合体。
+- 移動: git checkout main（本流のブランチに戻る）
+- 合体: git merge feature（featureの成果をmainに取り込む）
+- 確認: ls で feature.md が出現しているか確認
+- 中身: cat feature.md で中身が正しいか確認
+- ログ: git log --oneline --graph で枝が合流した図を確認
 
 3. 
