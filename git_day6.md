@@ -15,3 +15,6 @@
 - git push [リモート名][タグ名]
 - git push origin --tags (--tagsをつけるとローカルにあってリモートリポジトリに存在しないタグを一斉に送信する)
 
+##　作業を一次避難する
+- git stash
+- git stash save
