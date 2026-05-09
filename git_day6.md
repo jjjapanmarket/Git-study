@@ -20,3 +20,6 @@
 - git stash save
 ## 避難した作業を確認する
 - git stash list
+## 避難した作業を復元する
+- git stash apply (最新の作業を復元する)
+- git stash apply --index(ステージの状況も復元する)
