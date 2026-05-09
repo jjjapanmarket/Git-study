@@ -23,3 +23,7 @@
 ## 避難した作業を復元する
 - git stash apply (最新の作業を復元する)
 - git stash apply --index(ステージの状況も復元する)
+## 避難した作業を削除する
+- git stash drop (最新の作業を削除する)
+- git stash drop [スタッシュ名](特定の作業を削除する)
+- git stash clear (全作業を削除する)
