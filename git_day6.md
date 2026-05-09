@@ -18,3 +18,5 @@
 ##　作業を一次避難する
 - git stash
 - git stash save
+## 避難した作業を確認する
+- git stash list
